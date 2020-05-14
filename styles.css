@@ -1,0 +1,15 @@
+*{
+    font-family: 'Hind', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    overflow:hidden;
+}
+
+p{
+    font-size: 30px;
+    margin: 0px ;
+    padding:0px ;
+}
