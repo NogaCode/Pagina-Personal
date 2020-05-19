@@ -41,7 +41,8 @@ if (signo == "multiplicacion"){
 }
 
 //---------------------------Simplificacion de numeros---------------------------
-console.log(n1+n2);
+var numerosimple = (n1+n2);
+console.log(numerosimple);
 //console.log(restasimple) ;
 //console.log(divisionsimple);
 //console.log(multiplicacionsimple);
@@ -55,11 +56,11 @@ if (onequestion == "si"){
 
  //-------------------------------------Suma-------------------------------------
 if (signo2 == "suma"){
-    document.write("El resultado de la operacion es: ", numerosimple1+n3 );
-    var numerosimple2 = (numerosimple1 + n2);
+    document.write("El resultado de la operacion es: ", numerosimple1 + n3 );
+    var numerosimple2 = (numerosimple1 + n3);
 }else if(signo2 == "+"){
     document.write("El resultado de la operacion es: ", numerosimple1+n3);
-    var numerosimple2 = (numerosimple1 + n2);
+    var numerosimple2 = (numerosimple1 + n3);
 }
 
 //-------------------------------------Resta------------------------------------
