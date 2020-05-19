@@ -8,45 +8,31 @@ var onequestion = prompt("Quieres seguir?");
 //---------------------------------Operacion N1----------------------------------
 
 //-------------------------------------Suma--------------------------------------
-if (signo == "suma"){
+if (signo == "suma" || signo == "+"){
     document.write("El resultado de la operacion es: ", n1+n2);
     var numerosimple1 = (n1+n2);
-}else if(signo == "+"){
-    document.write("El resultado de la operacion es: ", n1+n2);
-    var numerosimple1 = n1+n2;
 }
 //-------------------------------------Resta------------------------------------
-if (signo == "resta"){
-    document.write("El resultado de la operacion es: ", n1-n2);
-    var numerosimple1 = (n1-n2);
-}else if(signo == "-"){
+if (signo == "resta" || signo == "-"){
     document.write("El resultado de la operacion es: ", n1-n2);
     var numerosimple1 = (n1-n2);
 }
 //-------------------------------------Division----------------------------------
-if (signo == "division"){
-    document.write("El resultado de la operacion es: ", n1/n2);
-    var numerosimple1 = (n1/n2);
-}else if(signo == "/"){
+if (signo == "division" || signo == "/"){
     document.write("El resultado de la operacion es: ", n1/n2);
     var numerosimple1 = (n1/n2);
 }
+
 //-----------------------------------Multiplicacion------------------------------
-if (signo == "multiplicacion"){
-    document.write("El resultado de la operacion es: ", n1*n2);
-    var numerosimple1 = (n1*n2);
-}else if(signo == "*"){
+if (signo == "multiplicacion" || signo == "*"){
     document.write("El resultado de la operacion es: ", n1*n2);
     var numerosimple1 = (n1*n2);
 }
 
 //---------------------------Simplificacion de numeros---------------------------
-var numerosimple = (n1+n2);
-console.log(numerosimple);
-//console.log(restasimple) ;
-//console.log(divisionsimple);
-//console.log(multiplicacionsimple);
 
+var numerosimple = (n1+n2);
+console.log(numerosimple1);
 
 //-----------------------------------Pregunta N2------------------------------
 if (onequestion == "si"){
@@ -55,39 +41,28 @@ if (onequestion == "si"){
 //-----------------------------------Operacion N2--------------------------------
 
  //-------------------------------------Suma-------------------------------------
-if (signo2 == "suma"){
+if (signo2 == "suma" || signo2 == "+"){
     document.write("El resultado de la operacion es: ", numerosimple1 + n3 );
-    var numerosimple2 = (numerosimple1 + n3);
-}else if(signo2 == "+"){
-    document.write("El resultado de la operacion es: ", numerosimple1+n3);
     var numerosimple2 = (numerosimple1 + n3);
 }
 
 //-------------------------------------Resta------------------------------------
-if (signo2 == "resta"){
+if (signo2 == "resta" || signo2 == "-"){
     document.write("El resultado de la operacion es: ", numerosimple1-n3);
     var numerosimple2 = (numerosimple1 - n2);
-}else if(signo2 == "-"){
-    document.write("El resultado de la operacion es: ", numerosimple1-n3);
-    var numerosimple2 = (numerosimple1 - n2);
-}
-//-------------------------------------Division----------------------------------
-if (signo2 == "division"){
-    document.write("El resultado de la operacion es: ", numerosimple1/n3);
-    var numerosimple2 = (numerosimple1 / n2);
-}else if(signo2 == "/"){
-    document.write("El resultado de la operacion es: ", numerosimple1/n3);
-    var numerosimple2 = (numerosimple1 / n2);
-}
-//-----------------------------------Multiplicacion------------------------------
-if (signo2 == "multiplicacion"){
-    document.write("El resultado de la operacion es: ", numerosimple1*n3);
-    var numerosimple2 = (numerosimple1 * n2);
-}else if(signo2 == "*"){
-    document.write("El resultado de la operacion es: ", numerosimple1*n3);
-    var numerosimple2 = (numerosimple1 * n2);
 }
 
+//-------------------------------------Division----------------------------------
+if (signo2 == "division" || signo2 == "/"){
+    document.write("El resultado de la operacion es: ", numerosimple1/n3);
+    var numerosimple2 = (numerosimple1 / n2);
+}
+
+//-----------------------------------Multiplicacion------------------------------
+if (signo2 == "multiplicacion" || signo2 == "*"){
+    document.write("El resultado de la operacion es: ", numerosimple1*n3);
+    var numerosimple2 = (numerosimple1 * n2);
+}
     console.log(signo2);
     var twoquestion = prompt("Quieres seguir?");
 }
@@ -98,37 +73,42 @@ if (twoquestion == "si"){
     var signo3 = prompt('Dime el signo que desees')
     var n4 = parseInt(prompt('Dime el cuarto número'));
 }
-
+console.log(signo3)
 //-----------------------------------Suma-------------------------------------
-if(signo3 == "suma"){
+if(signo3 == "suma" || signo3 == "+"){
     document.write ("El resultado de la operacion es: ", numerosimple2 + n4);
     var numerosimple3 = (numerosimple2 + n4);
-} else if (signo3 == "+"){
-    document.write ("El resultado de la operacion es: ", numerosimple2+n4);
-    var numerosimple3 = (numerosimple2 + n4);    
 }
 
 //-----------------------------------Resta-------------------------------------
 
-if(signo3 == "resta"){
+if(signo3 == "resta" || signo3 == "-" ){
     document.write ('El resultado de la operacion es: ', numerosimple2 - n4);
     var numerosimple3 = (numerosimple2 - n4);
-}else if (signo3 == "-"){
-    document.write ('El resultado de la operacion es: ', numerosimple2 - n4);
-    var numerosimple3 = (numerosimple2 - n4);    
 }
 
 //-----------------------------------Divicion-------------------------------------
 
-if(signo3 == "division"){
+if(signo3 == "division" || signo3 == "/"){
     document.write ('El resultado de la operacion es: ', numerosimple2 / n4);
     var numerosimple3 = (numerosimple2 / n4);
-}else if (signo3 == "/"){
-    document.write ('El resultado de la operacion es: ', numerosimple2 / n4);
-    var numerosimple3 = (numerosimple2 / n4);    
 }
 
 //-----------------------------------Multiplicacion---------------------------------
+
+if(signo3 == "multiplicacion" || signo3 == "*"){
+    document.write ('El resultado de la operacion es: ', numerosimple2 * n4);
+    var numerosimple3 = (numerosimple2 * n4);
+}
+console.log(n4)
+console.log('=')
+console.log(numerosimple3);
+
+/*--------------------------------------------Seccion Notas--------------------------------
+
+La calculadora, el maximo de lineas de codigo fue de 143 lineas. De las cueles tengo que optimizar
+El codigo se hizo muy largo ya que hice lo siguiente, cosa que esta mal:
+
 
 if(signo3 == "multiplicacion"){
     document.write ('El resultado de la operacion es: ', numerosimple2 * n4);
@@ -138,5 +118,11 @@ if(signo3 == "multiplicacion"){
     var numerosimple3 = (numerosimple2 * n4);    
 }
 
-console.log(numerosimple3);
+Y lo simplifique de la siguiente manera:
 
+if(signo3 == "multiplicacion" || signo3 == "*"){
+    document.write ('El resultado de la operacion es: ', numerosimple2 * n4);
+    var numerosimple3 = (numerosimple2 * n4);
+}
+
+*/
