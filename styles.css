@@ -1,12 +1,14 @@
 * {
   font-family: "Hind", sans-serif;
-  margin: 3px;
+  margin: 0px;
   padding: 0px;
 }
 
 header {
-  background-color: rgb(78, 78, 78);
-  height: 60px;
+  background-color: rgb(53, 53, 53);
+  height: 55px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 ul li {
@@ -14,13 +16,32 @@ ul li {
   list-style: none;
   text-decoration: none;
   display: inline-block;
-  margin: 5px;
+  margin: 0px;
   padding: 10px;
+  margin-top: center;
 }
 
-li.home {
-  background-color: red;
-  padding: 0;
-  height: 60px;
-  margin: -440px -10px 0px -3px;
+ul :hover {
+  background-color: #1f1f1f;
+  margin-top: center;
+  margin: 0;
+}
+
+
+/*
+.home {
+  background-color: blue;
+  width: 60px;
+  height: 40px;
+  margin: -3px 0px 0px 0px;
+  float: center;
+  margin-right: auto;
+  margin-top: -100px;
+}
+
+*/
+
+li{
+    font-size: 20px;
+    font-weight: 200;
 }
