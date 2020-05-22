@@ -1,15 +1,26 @@
-*{
-    font-family: 'Hind', sans-serif;
+* {
+  font-family: "Hind", sans-serif;
+  margin: 3px;
+  padding: 0px;
 }
 
-h1{
-    text-align: center;
-    font-size: 40px;
-    overflow:hidden;
+header {
+  background-color: rgb(78, 78, 78);
+  height: 60px;
 }
 
-p{
-    font-size: 30px;
-    margin: 0px ;
-    padding:0px ;
+ul li {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+}
+
+li.home {
+  background-color: red;
+  padding: 0;
+  height: 60px;
+  margin: -440px -10px 0px -3px;
 }

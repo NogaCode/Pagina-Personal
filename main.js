@@ -1,5 +1,5 @@
 var n1 = parseInt(prompt("Dime el primer número"));
-var signo = prompt('Díme el signo')
+var signo = prompt("Díme el signo");
 var n2 = parseInt(prompt("Dime el segundo número"));
 var onequestion = prompt("Quieres seguir?");
 
@@ -7,115 +7,115 @@ var onequestion = prompt("Quieres seguir?");
 
 //Suma
 
-if (signo == "suma" || signo == "+"){
-    document.write("El resultado de la operacion es: ", n1+n2);
-    var numerosimple1 = (n1+n2);
+if (signo == "suma" || signo == "+") {
+  document.write("El resultado de la operacion es: ", n1 + n2);
+  var numerosimple1 = n1 + n2;
 }
 
 //Resta
 
-if (signo == "resta" || signo == "-"){
-    document.write("El resultado de la operacion es: ", n1-n2);
-    var numerosimple1 = (n1-n2);
+if (signo == "resta" || signo == "-") {
+  document.write("El resultado de la operacion es: ", n1 - n2);
+  var numerosimple1 = n1 - n2;
 }
 
 //Division
 
-if (signo == "division" || signo == "/"){
-    document.write("El resultado de la operacion es: ", n1/n2);
-    var numerosimple1 = (n1/n2);
+if (signo == "division" || signo == "/") {
+  document.write("El resultado de la operacion es: ", n1 / n2);
+  var numerosimple1 = n1 / n2;
 }
 
 //Multiplicacion
 
-if (signo == "multiplicacion" || signo == "*"){
-    document.write("El resultado de la operacion es: ", n1*n2);
-    var numerosimple1 = (n1*n2);
+if (signo == "multiplicacion" || signo == "*") {
+  document.write("El resultado de la operacion es: ", n1 * n2);
+  var numerosimple1 = n1 * n2;
 }
 
-//Llamo a los numeros 
+//Llamo a los numeros
 
-var numerosimple = (n1+n2);
+var numerosimple = n1 + n2;
 console.log(numerosimple1);
 
 //-----------------------------------Pregunta N2------------------------------
 
-if (onequestion == "si"){
-    var signo2 = prompt("Dime el signo");
-    var n3 = parseInt(prompt("Dime el tercer número"));
+if (onequestion == "si") {
+  var signo2 = prompt("Dime el signo");
+  var n3 = parseInt(prompt("Dime el tercer número"));
 
-//-----------------------------------Operacion N2--------------------------------
+  //-----------------------------------Operacion N2--------------------------------
 
-//Suma
+  //Suma
 
-if (signo2 == "suma" || signo2 == "+"){
-    document.write("El resultado de la operacion es: ", numerosimple1 + n3 );
-    var numerosimple2 = (numerosimple1 + n3);
-}
+  if (signo2 == "suma" || signo2 == "+") {
+    document.write("El resultado de la operacion es: ", numerosimple1 + n3);
+    var numerosimple2 = numerosimple1 + n3;
+  }
 
-//Resta
+  //Resta
 
-if (signo2 == "resta" || signo2 == "-"){
-    document.write("El resultado de la operacion es: ", numerosimple1-n3);
-    var numerosimple2 = (numerosimple1 - n3);
-}
+  if (signo2 == "resta" || signo2 == "-") {
+    document.write("El resultado de la operacion es: ", numerosimple1 - n3);
+    var numerosimple2 = numerosimple1 - n3;
+  }
 
-//Division
+  //Division
 
-if (signo2 == "division" || signo2 == "/"){
-    document.write("El resultado de la operacion es: ", numerosimple1/n3);
-    var numerosimple2 = (numerosimple1 / n3);
-}
+  if (signo2 == "division" || signo2 == "/") {
+    document.write("El resultado de la operacion es: ", numerosimple1 / n3);
+    var numerosimple2 = numerosimple1 / n3;
+  }
 
-//Multiplicacion
+  //Multiplicacion
 
-if (signo2 == "multiplicacion" || signo2 == "*"){
-    document.write("El resultado de la operacion es: ", numerosimple1*n3);
-    var numerosimple2 = (numerosimple1 * n3);
-}
-    console.log(signo2);
-    var twoquestion = prompt("Quieres seguir?");
+  if (signo2 == "multiplicacion" || signo2 == "*") {
+    document.write("El resultado de la operacion es: ", numerosimple1 * n3);
+    var numerosimple2 = numerosimple1 * n3;
+  }
+  console.log(signo2);
+  var twoquestion = prompt("Quieres seguir?");
 }
 
 console.log(numerosimple2);
 
 //-----------------------------------Pregunta N2------------------------------
 
-if (twoquestion == "si"){
-    var signo3 = prompt('Dime el signo que desees')
-    var n4 = parseInt(prompt('Dime el cuarto número'));
+if (twoquestion == "si") {
+  var signo3 = prompt("Dime el signo que desees");
+  var n4 = parseInt(prompt("Dime el cuarto número"));
 }
-console.log(signo3)
+console.log(signo3);
 
 //Suma
 
-if(signo3 == "suma" || signo3 == "+"){
-    document.write ("El resultado de la operacion es: ", numerosimple2 + n4);
-    var numerosimple3 = (numerosimple2 + n4);
+if (signo3 == "suma" || signo3 == "+") {
+  document.write("El resultado de la operacion es: ", numerosimple2 + n4);
+  var numerosimple3 = numerosimple2 + n4;
 }
 
 //Resta
 
-if(signo3 == "resta" || signo3 == "-" ){
-    document.write ('El resultado de la operacion es: ', numerosimple2 - n4);
-    var numerosimple3 = (numerosimple2 - n4);
+if (signo3 == "resta" || signo3 == "-") {
+  document.write("El resultado de la operacion es: ", numerosimple2 - n4);
+  var numerosimple3 = numerosimple2 - n4;
 }
 
 //Divicion
 
-if(signo3 == "division" || signo3 == "/"){
-    document.write ('El resultado de la operacion es: ', numerosimple2 / n4);
-    var numerosimple3 = (numerosimple2 / n4);
+if (signo3 == "division" || signo3 == "/") {
+  document.write("El resultado de la operacion es: ", numerosimple2 / n4);
+  var numerosimple3 = numerosimple2 / n4;
 }
 
 //Multiplicacion
 
-if(signo3 == "multiplicacion" || signo3 == "*"){
-    document.write ('El resultado de la operacion es: ', numerosimple2 * n4);
-    var numerosimple3 = (numerosimple2 * n4);
+if (signo3 == "multiplicacion" || signo3 == "*") {
+  document.write("El resultado de la operacion es: ", numerosimple2 * n4);
+  var numerosimple3 = numerosimple2 * n4;
 }
 console.log(n4);
-console.log('=');
+console.log("=");
 console.log(numerosimple3);
 
 /*--------------------------------------------Seccion Notas--------------------------------
