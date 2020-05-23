@@ -1,3 +1,5 @@
+// Pidiendo numeros al usuario
+
 var n1 = parseInt(prompt("Dime el primer número"));
 var signo = prompt("Díme el signo");
 var n2 = parseInt(prompt("Dime el segundo número"));
