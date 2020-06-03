@@ -15,7 +15,8 @@ header {
   height: 5,5vw;
 }
 
-ul li {
+/*UL Li*/ 
+.Contactos, .Home, .MisProyectos {
   margin: 0px;
   padding: 10px;
   color: white;
@@ -36,6 +37,7 @@ li {
   font-weight: 200;
 }
 
+/*.Contenido*/
 .Contenido {
   width: 75%; 
   /*width: 1030px;*/
@@ -68,4 +70,27 @@ a {
   list-style: none;
   text-decoration: none;
   color: White;
+}
+
+.Tecnologias{
+  background-color: grey;
+  text-decoration: none;
+  display: inline;
+  list-style: none;
+}
+
+.Body{
+  border-radius: 3px;
+  border: 1px solid #dad7d1;
+  margin: 30px 10px 10px 10px;
+  padding: 10px;
+}
+
+.HTML5, .CSS3, .JS{
+  width: 60px;
+  height: 60px;
+}
+
+.Tools{
+  text-align: center;
 }
