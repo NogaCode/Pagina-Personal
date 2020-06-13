@@ -3,7 +3,7 @@
 */
 
 * {
-  font-family: "Hind", sans-serif;
+  font-family: 'Hind', sans-serif;
   margin: 0px;
   padding: 0px;
 }
@@ -53,7 +53,7 @@ h1:hover {
 
 .Contenido {
   width: 75%;
-  height: 700px; /*-----------------------------ARREGLAR*/
+  height: 90%;
   margin-left: auto;
   margin-right: auto;
   margin-top: -20px;/*-----------------------------ARREGLAR*/
@@ -95,13 +95,16 @@ a {
 
 .Tools{
   text-align: center;
+  font-size: 20px; /*-----------------------------ARREGLAR*/
 }
 
 .Footer{
   align-items: center;
-  font-size: 20px;
-  height: 2vw;/*-----------------------------ARREGLAR*/
+  font-size: 125%;
+  height: 15%;/*-----------------------------ARREGLAR*/
   text-align: center;
   color: white;
-  background-color: rgb(53, 53, 53);
+  background-color: #0f1011;
+  margin: 10px;
+  font-family: 'Nunito', sans-serif;
 }
