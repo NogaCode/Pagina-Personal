@@ -69,3 +69,45 @@ a {
   text-decoration: none;
   color: White;
 }
+
+h2{
+  font-size: 20px;
+}
+
+/*------------------PrimerTexto------------------------------*/
+
+.PrimerProyecto{
+  border-radius: 3px;
+  border: 1px solid #dad7d1;
+  margin: 30px 10px 10px 10px;/*-----------------------------ARREGLAR*/
+  padding: 10px;/*-----------------------------ARREGLAR*/
+}
+
+.BotonCalculadora1{
+  float: right;
+  margin-top: -5%; /*-40px      -5%*/
+  width: 15%;
+}
+
+.TextoProyecto1{
+  width: 80%;
+}
+
+/*------------------------------SegundoTexto*/
+
+.SegundoProyecto{
+  border-radius: 3px;
+  border: 1px solid #dad7d1;
+  margin: 30px 10px 10px 10px;/*-----------------------------ARREGLAR*/
+  padding: 10px;/*-----------------------------ARREGLAR*/
+}
+
+.BotonCalculadora{
+  float: right;
+  margin-top: -5%; /*-40px*/
+  width: 15%;
+}
+
+.TextoProyecto1{
+  width: 80%;
+}
