@@ -13,9 +13,12 @@ header {
   margin-right: 10px;
   background-color: rgb(53, 53, 53);
   height: 5,5vw;
+  border-radius: 5px;
+  transition: all 0.4s ease 0s;
 }
 
 ul li {
+  border-radius: 5px 0px 0px 5px;
   margin: 0px;
   padding: 10px;
   color: white;
@@ -23,12 +26,19 @@ ul li {
   text-decoration: none;
   display: inline-block;
   margin-top: center;
+  transition: all 0.4s ease 0s;
 }
 
 ul :hover {
   margin: 0;
   background-color: #1f1f1f;
   margin-top: center;
+  transition: all 0.4s ease 0s;
+}
+
+.Home{
+  background-color: red;
+  transition: all 0.4s ease 0s; 
 }
 
 li {
@@ -48,15 +58,17 @@ li {
 }
 
 h1 {
-  margin: 10px;
+  min-width: 235px;
+  margin: 10px;/*-----------------------------ARREGLAR*/
   font-size: 5,5vw;
-  /*font-size: 30px; 
-  border: 3px solid #fffec3;*/
-  padding: 5px;
+  padding: 5px;/*-----------------------------ARREGLAR*/
+  transition: all 0.4s ease 0s;
 }
 
 h1:hover {
   color: red;
+  width: 250px;
+  transition: all 0.4s ease 0s;
 }
 
 body {
@@ -69,3 +81,60 @@ a {
   text-decoration: none;
   color: White;
 }
+/*
+------------------------GITHUB
+.GitHub{
+  float: right;
+  position: relative;
+  display: inline;
+  margin: 20px;
+  width: 250px;
+  height: 250px;
+  background-color: lightblue;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.TextGitHub{
+  font-size: 20px;
+}
+
+------------------------FACEBOOK
+
+.Facebook{
+  float: right;
+  margin-right: 30px;
+  position: relative;
+  display: inline;
+  margin: 20px;
+  width: 250px;
+  height: 250px;
+  background-color: lightblue;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.TextFacebook{
+  font-size: 20px;
+}
+
+------------------------INSTAGRAM
+
+.Instagram{
+  float: left;
+  margin-right: 30%;;
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+  width: 250px;
+  height: 250px;
+  background-color: lightblue;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.TextInstagram{
+  font-size: 20px;
+}
+
+*/

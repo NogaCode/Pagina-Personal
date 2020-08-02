@@ -1,3 +1,33 @@
+function ModoOscuro() {
+  var CuerpoWeb = document.body;
+  CuerpoWeb.classList.toggle("Oscuro");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 // Pidiendo numeros al usuario
 
 var n1 = parseInt(prompt("Dime el primer número"));

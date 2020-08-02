@@ -9,20 +9,23 @@
 }
 
 header {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 10px;/*-----------------------------ARREGLAR*/
+  margin-right: 10px;/*-----------------------------ARREGLAR*/
   background-color: rgb(53, 53, 53);
   height: 5,5vw;
+  border-radius: 5px;
 }
 
 ul li {
+  border-radius: 5px 0px 0px 5px;
   margin: 0px;
-  padding: 10px;
+  padding: 10px;/*-----------------------------ARREGLAR*/
   color: white;
   list-style: none;
   text-decoration: none;
   display: inline-block;
   margin-top: center;
+  transition: all 0.4s ease 0s;
 }
 
 ul :hover {
@@ -38,7 +41,6 @@ li {
 
 .Contenido {
   width: 75%; 
-  /*width: 1030px;*/
   height: 1000px;
   margin-left: auto;
   margin-right: auto;
@@ -48,15 +50,17 @@ li {
 }
 
 h1 {
-  margin: 10px;
+  min-width: 235px;/*-----------------------------ARREGLAR*/
+  margin: 10px;/*-----------------------------ARREGLAR*/
   font-size: 5,5vw;
-  /*font-size: 30px; 
-  border: 3px solid #fffec3;*/
-  padding: 5px;
+  padding: 5px;/*-----------------------------ARREGLAR*/
+  transition: all 0.4s ease 0s;
 }
 
 h1:hover {
   color: red;
+  width: 250px;
+  transition: all 0.4s ease 0s;
 }
 
 body {
@@ -85,13 +89,16 @@ h2{
 
 .BotonCalculadora1{
   float: right;
-  margin-top: -5%; /*-40px      -5%*/
   width: 15%;
+  transform: translate(-10%, -180%);
+  -ms-transform: translate(100%, 100%);
 }
 
 .TextoProyecto1{
   width: 80%;
+  text-align: left;
 }
+
 
 /*------------------------------SegundoTexto*/
 
@@ -104,10 +111,17 @@ h2{
 
 .BotonCalculadora{
   float: right;
-  margin-top: -5%; /*-40px*/
+  margin-top: center; 
   width: 15%;
+  transform: translate(-10%, -180%);
+  -ms-transform: translate(100%, 100%);
 }
+
 
 .TextoProyecto1{
   width: 80%;
+}
+
+.Home{
+  background-color: red;
 }
