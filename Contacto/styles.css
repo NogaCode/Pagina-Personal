@@ -81,60 +81,56 @@ a {
   text-decoration: none;
   color: White;
 }
-/*
-------------------------GITHUB
+
+/*------------------------GITHUB*/
 .GitHub{
-  float: right;
-  position: relative;
-  display: inline;
-  margin: 20px;
+  display: inline-block;
   width: 250px;
   height: 250px;
   background-color: lightblue;
   border-radius: 15px;
   text-align: center;
+  margin: 20px;
 }
 
 .TextGitHub{
   font-size: 20px;
 }
 
-------------------------FACEBOOK
+/*------------------------FACEBOOK*/
 
 .Facebook{
-  float: right;
-  margin-right: 30px;
-  position: relative;
-  display: inline;
-  margin: 20px;
+  display: inline-block;
   width: 250px;
   height: 250px;
   background-color: lightblue;
   border-radius: 15px;
   text-align: center;
+  margin: 20px;
 }
 
 .TextFacebook{
   font-size: 20px;
 }
 
-------------------------INSTAGRAM
+/*------------------------INSTAGRAM*/
 
 .Instagram{
-  float: left;
-  margin-right: 30%;;
-  position: relative;
   display: inline-block;
-  margin: 20px;
   width: 250px;
   height: 250px;
   background-color: lightblue;
   border-radius: 15px;
   text-align: center;
+  margin: 20px;
 }
 
 .TextInstagram{
   font-size: 20px;
 }
 
-*/
+section{
+  text-align: center;
+  height: 600px;
+  width: 100%;
+}
