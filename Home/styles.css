@@ -23,7 +23,7 @@ header {
 }
 
 /*UL Li*/
-.Contactos,.Home, .MisProyectos {
+.Contactos, .Home, .MisProyectos {
   border-radius: 5px 0px 0px 5px;
   margin: 0px;
   padding: 10px; /*-----------------------------ARREGLAR*/
@@ -54,9 +54,9 @@ li {
 
 h1 {
   min-width: 235px;
-  margin: 10px;/*-----------------------------ARREGLAR*/
-  font-size: 5,5vw;
-  padding: 5px;/*-----------------------------ARREGLAR*/
+  margin: 10px; /*-----------------------------ARREGLAR*/
+  font-size: 5, 5vw;
+  padding: 5px; /*-----------------------------ARREGLAR*/
   transition: all 0.4s ease 0s;
 }
 
@@ -134,7 +134,7 @@ a {
   transition: all 0.4s ease 0s;
 }
 
-#BTN {  
+#BTN {
   min-width: 50px;
   width: 5%;
   border: none;
