@@ -12,9 +12,9 @@ header {
   margin-left: 10px;
   margin-right: 10px;
   background-color: rgb(53, 53, 53);
-  height: 5,5vw;
+  height: 5, 5vw;
   border-radius: 5px;
-  transition: all 0.4s ease 0s;
+  /*  transition: all 0.4s ease 0s; */
 }
 
 ul li {
@@ -26,7 +26,7 @@ ul li {
   text-decoration: none;
   display: inline-block;
   margin-top: center;
-  transition: all 0.4s ease 0s;
+  /*  transition: all 0.4s ease 0s; */
 }
 
 ul :hover {
@@ -36,9 +36,8 @@ ul :hover {
   transition: all 0.4s ease 0s;
 }
 
-.Home{
+.Home {
   background-color: red;
-  transition: all 0.4s ease 0s; 
 }
 
 li {
@@ -47,7 +46,7 @@ li {
 }
 
 .Contenido {
-  width: 75%; 
+  width: 75%;
   /*width: 1030px;*/
   height: 1000px;
   margin-left: auto;
@@ -59,10 +58,10 @@ li {
 
 h1 {
   min-width: 235px;
-  margin: 10px;/*-----------------------------ARREGLAR*/
-  font-size: 5,5vw;
-  padding: 5px;/*-----------------------------ARREGLAR*/
-  transition: all 0.4s ease 0s;
+  margin: 10px; /*-----------------------------ARREGLAR*/
+  font-size: 5, 5vw;
+  padding: 5px; /*-----------------------------ARREGLAR*/
+   /*  transition: all 0.4s ease 0s; */
 }
 
 h1:hover {
@@ -83,7 +82,7 @@ a {
 }
 
 /*------------------------GITHUB*/
-.GitHub{
+.GitHub {
   display: inline-block;
   width: 250px;
   height: 250px;
@@ -93,37 +92,37 @@ a {
   margin: 20px;
 }
 
-.TextGitHub{
+.TextGitHub {
   font-size: 20px;
 }
 
-.ImgGitHub{
+.ImgGitHub {
   width: 150px;
 }
 
 /*------------------------FACEBOOK*/
 
-.Facebook{
+.Facebook {
   display: inline-block;
   width: 250px;
   height: 250px;
-   border: 1px solid #dad7d1;
+  border: 1px solid #dad7d1;
   /*background-color: lightblue;*/
   border-radius: 15px;
   text-align: center;
   margin: 20px;
 }
 
-.TextFacebook{
+.TextFacebook {
   font-size: 20px;
 }
 
-.ImgFacebook{
+.ImgFacebook {
   width: 150px;
 }
 /*------------------------INSTAGRAM*/
 
-.Instagram{
+.Instagram {
   display: inline-block;
   width: 250px;
   height: 250px;
@@ -133,15 +132,15 @@ a {
   margin: 20px;
 }
 
-.TextInstagram{
+.TextInstagram {
   font-size: 20px;
 }
 
-.ImgInstagram{
+.ImgInstagram {
   width: 150px;
 }
 
-section{
+section {
   text-align: center;
   height: 600px;
   width: 100%;

@@ -57,7 +57,7 @@ h1 {
   margin: 10px; /*-----------------------------ARREGLAR*/
   font-size: 5, 5vw;
   padding: 5px; /*-----------------------------ARREGLAR*/
-  transition: all 0.4s ease 0s;
+  /*transition: all 0.4s ease 0s;*/
 }
 
 h1:hover {

@@ -9,17 +9,17 @@
 }
 
 header {
-  margin-left: 10px;/*-----------------------------ARREGLAR*/
-  margin-right: 10px;/*-----------------------------ARREGLAR*/
+  margin-left: 10px; /*-----------------------------ARREGLAR*/
+  margin-right: 10px; /*-----------------------------ARREGLAR*/
   background-color: rgb(53, 53, 53);
-  height: 5,5vw;
+  height: 5, 5vw;
   border-radius: 5px;
 }
 
 ul li {
   border-radius: 5px 0px 0px 5px;
   margin: 0px;
-  padding: 10px;/*-----------------------------ARREGLAR*/
+  padding: 10px; /*-----------------------------ARREGLAR*/
   color: white;
   list-style: none;
   text-decoration: none;
@@ -40,7 +40,7 @@ li {
 }
 
 .Contenido {
-  width: 75%; 
+  width: 75%;
   height: 1000px;
   margin-left: auto;
   margin-right: auto;
@@ -50,10 +50,10 @@ li {
 }
 
 h1 {
-  min-width: 235px;/*-----------------------------ARREGLAR*/
-  margin: 10px;/*-----------------------------ARREGLAR*/
-  font-size: 5,5vw;
-  padding: 5px;/*-----------------------------ARREGLAR*/
+  min-width: 235px; /*-----------------------------ARREGLAR*/
+  margin: 10px; /*-----------------------------ARREGLAR*/
+  font-size: 5, 5vw;
+  padding: 5px; /*-----------------------------ARREGLAR*/
   transition: all 0.4s ease 0s;
 }
 
@@ -74,53 +74,52 @@ a {
   color: White;
 }
 
-h2{
+h2 {
   font-size: 20px;
 }
 
 /*------------------PrimerTexto------------------------------*/
 
-.PrimerProyecto{
+.PrimerProyecto {
   border-radius: 3px;
   border: 1px solid #dad7d1;
-  margin: 30px 10px 10px 10px;/*-----------------------------ARREGLAR*/
-  padding: 10px;/*-----------------------------ARREGLAR*/
+  margin: 30px 10px 10px 10px; /*-----------------------------ARREGLAR*/
+  padding: 10px; /*-----------------------------ARREGLAR*/
 }
 
-.BotonCalculadora1{
+.BotonCalculadora1 {
   float: right;
   width: 15%;
   transform: translate(-10%, -180%);
   -ms-transform: translate(100%, 100%);
 }
 
-.TextoProyecto1{
+.TextoProyecto1 {
   width: 80%;
   text-align: left;
 }
 
 /*------------------------------SegundoTexto*/
 
-.SegundoProyecto{
+.SegundoProyecto {
   border-radius: 3px;
   border: 1px solid #dad7d1;
-  margin: 30px 10px 10px 10px;/*-----------------------------ARREGLAR*/
-  padding: 10px;/*-----------------------------ARREGLAR*/
+  margin: 30px 10px 10px 10px; /*-----------------------------ARREGLAR*/
+  padding: 10px; /*-----------------------------ARREGLAR*/
 }
 
-.BotonCalculadora{
+.BotonCalculadora {
   float: right;
-  margin-top: center; 
+  margin-top: center;
   width: 15%;
   transform: translate(-10%, -180%);
   -ms-transform: translate(100%, 100%);
 }
 
-
-.TextoProyecto1{
+.TextoProyecto1 {
   width: 80%;
 }
 
-.Home{
+.Home {
   background-color: red;
 }
