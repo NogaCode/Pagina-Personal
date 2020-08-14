@@ -97,17 +97,19 @@ a {
 }
 
 .ImgGitHub {
-  width: 150px;
+  width: 18%;
+  height: ;
 }
 
 /*------------------------FACEBOOK*/
 
 .Facebook {
   display: inline-block;
-  width: 250px;
-  height: 250px;
+  width: 18%;
+  height: 100%;
   border: 1px solid #dad7d1;
   /*background-color: lightblue;*/
+  margin-top: auto; /* -----*/
   border-radius: 15px;
   text-align: center;
   margin: 20px;
@@ -118,7 +120,7 @@ a {
 }
 
 .ImgFacebook {
-  width: 150px;
+  width: 18%;
 }
 /*------------------------INSTAGRAM*/
 
@@ -137,11 +139,17 @@ a {
 }
 
 .ImgInstagram {
-  width: 150px;
+  width: 18%;
 }
 
 section {
   text-align: center;
   height: 600px;
   width: 100%;
+}
+
+aside{
+  text-align: center;
+  margin-top: auto;
+  margin-left: auto;
 }
