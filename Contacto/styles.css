@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara&display=swap');
 /*
       CONTACTO
 */
 
 * {
-  font-family: "Hind", sans-serif;
+  /*font-family: "Hind", sans-serif;*/
+  font-family: 'Hind Vadodara', sans-serif;
   margin: 0px;
   padding: 0px;
 }
@@ -89,7 +91,8 @@ aside{
 
 .Facebook {
   display: inline-block;
-  width: 250px;
+  min-width: 230px;
+  width: 25%;
   height: 250px;
   border: 1px solid #dad7d1;
   border-radius: 15px;

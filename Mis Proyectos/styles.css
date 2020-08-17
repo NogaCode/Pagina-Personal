@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara&display=swap');
 /*
       MIS PROYECTOS
 */
 
 * {
-  font-family: "Hind", sans-serif;
+  /*font-family: "Hind", sans-serif;*/
+  font-family: 'Hind Vadodara', sans-serif;
   margin: 0px;
   padding: 0px;
 }
@@ -25,13 +27,14 @@ ul li {
   text-decoration: none;
   display: inline-block;
   margin-top: center;
-  transition: all 0.4s ease 0s;
+  /*transition: all 0.4s ease 0s;*/
 }
 
 ul :hover {
   margin: 0;
   background-color: #1f1f1f;
   margin-top: center;
+  transition: all 0.4s ease 0s;
 }
 
 li {
@@ -54,7 +57,7 @@ h1 {
   margin: 10px; /*-----------------------------ARREGLAR*/
   font-size: 5, 5vw;
   padding: 5px; /*-----------------------------ARREGLAR*/
-  transition: all 0.4s ease 0s;
+  /*transition: all 0.4s ease 0s;*/
 }
 
 h1:hover {
