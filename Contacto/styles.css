@@ -89,15 +89,42 @@ aside{
   margin-left: auto;
 }
 
-.Facebook {
+.Cartas {
   display: inline-block;
   min-width: 230px;
   width: 25%;
-  height: 250px;
+  height: 400px;
   border: 1px solid #dad7d1;
-  border-radius: 15px;
+  border-radius: 5px;
   text-align: center;
   margin: 20px;
+  background-color: #fff;
+  color: #212529;
+}
+
+.Titulo {
+  font-size: 20px;
+}
+
+.Logo{
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 70%;
+}
+
+.Texto{
+  margin: 10px;
+}
+
+input{
+  padding: 6px 12px;
+  height: 10%;
+  width: 90px;
+  border: none;
+  border-radius: 5px;
+  color: #FFFFFF;
+  background-color: #007BFF;
+  font-size: 1rem;
 }
 
 
