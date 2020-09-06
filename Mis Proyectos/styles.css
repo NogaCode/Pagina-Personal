@@ -92,9 +92,14 @@ h2 {
 
 .BotonCalculadora1 {
   float: right;
-  width: 15%;
-  transform: translate(-10%, -180%);
-  -ms-transform: translate(100%, 100%);
+  width: 13.5%;
+  position: absolute;
+  text-align: center;
+  bottom: auto;/*63.5%*/
+  left: 78%;
+  transform: translate(-50%,-50%);
+  /*transform: translate(-10%, -180%);
+  -ms-transform: translate(100%, 100%);*/
 }
 
 .TextoProyecto1 {
