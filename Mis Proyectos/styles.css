@@ -44,7 +44,7 @@ li {
 
 .Contenido {
   width: 75%;
-  height: 1000px;
+  height: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-top: -20px;
@@ -91,20 +91,23 @@ h2 {
 }
 
 .BotonCalculadora1 {
-  float: right;
-  width: 13.5%;
-  position: absolute;
-  text-align: center;
-  bottom: auto;/*63.5%*/
-  left: 78%;
-  transform: translate(-50%,-50%);
-  /*transform: translate(-10%, -180%);
-  -ms-transform: translate(100%, 100%);*/
+
+    padding: 6px 12px;
+    height: 30px;
+    width: 90px;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #007BFF;
+    font-size: 1rem;
+    margin-left: 42%;
+    margin-right: 40%;
 }
 
 .TextoProyecto1 {
-  width: 80%;
-  text-align: left;
+  width: 100%;
+  text-align: center;
+  font-family: 'Hind Vadodara', sans-serif;
 }
 
 /*------------------------------SegundoTexto*/
@@ -114,18 +117,6 @@ h2 {
   border: 1px solid #dad7d1;
   margin: 30px 10px 10px 10px; /*-----------------------------ARREGLAR*/
   padding: 10px; /*-----------------------------ARREGLAR*/
-}
-
-.BotonCalculadora {
-  float: right;
-  margin-top: center;
-  width: 15%;
-  transform: translate(-10%, -180%);
-  -ms-transform: translate(100%, 100%);
-}
-
-.TextoProyecto1 {
-  width: 80%;
 }
 
 .Home {
